@@ -1,0 +1,546 @@
+/*/ global /*/
+
+h1{
+    font-family:Ariel, sans-serif;
+}
+
+h2{
+    font-family:Ariel, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family:Ariel, sans-serif;
+}
+
+li{
+    font-family:Ariel, sans-serif;
+}
+
+
+/*/landing page/*/
+
+
+nav.top-nav {
+    background-color: #F5F5F5;
+    position: fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    box-shadow:0px 4px 4px lightgray;
+    z-index: 100;
+
+}
+
+nav [aria-current=page] {
+    background-color: lightgray;
+    color: #000;
+    border-bottom: .25em solid #444;
+}
+
+nav.top-nav li {
+    display:inline-block;
+    font-weight:bold;
+    margin:5px;
+    user-select:none;
+}
+
+nav.top-nav li:hover {
+    text-decoration: underline;
+}
+
+nav.top-nav ul {
+    list-style: none;
+}
+
+nav.top-nav .pulldown-menu {
+    display:none;
+    position:fixed;
+    border: 1px solid white;
+    background-color: white;
+}
+
+nav.top-nav .pulldown-menu li {
+    display: block;
+}
+
+nav.top-nav li:hover .pulldown-menu {
+    display:block;
+}
+
+h1{
+    margin-left: 40px;
+    margin-top:50px;
+    
+}
+
+/*/
+nav.top-nav  li:visited{
+    text-decoration: none;
+}
+/*/
+
+
+.hi img{
+
+    position: relative;
+    right:-725px;
+    top:200px;
+    height:auto;
+    width:350px;
+
+}
+
+.hi p{
+    position: relative;
+    font-weight: bold;
+    top:-200px;
+    right: -325px;
+}
+
+.intro p{
+    position: relative;
+    top:-100px;
+    right: -325px;
+
+}
+
+hr{
+    position: relative;
+    bottom: -85px;
+}
+
+.showcase p{
+    position:relative;
+    font-weight: bold;
+    bottom: -150px;
+    right:-480px;
+}
+
+.showcase #showcase1 img{
+    position: relative;
+    right:-225px;
+    top:250px;
+    height:auto;
+    width:350px;
+}
+
+.showcase #showcase1 h2{
+    position: relative;
+    font-size: 20px;
+    text-decoration: underline;
+    top: 200px;
+    right: -350px;
+
+}
+
+.showcase #showcase1 p{
+    font-weight: normal;
+    position: relative;
+    top: 300px;
+    right: -175px;
+
+}
+
+.showcase #showcase2 img{
+    position: relative;
+    right:-700px;
+    top:-300px;
+    height:auto;
+    width:500px;
+
+}
+
+.showcase #showcase2 h2{
+    position: relative;
+    font-size: 20px;
+    text-decoration: underline;
+    top: -365px;
+    right: -830px;
+
+
+}
+
+.showcase #showcase2 p{
+    font-weight: normal;
+    position: relative;
+    top: -225px;
+    right: -710px;
+
+
+}
+
+
+
+/*/showcase/*/
+
+.title{
+    position: relative;
+    text-decoration: underline;
+    font-weight: bold;
+    bottom: -200px;
+    right: -80px;
+}
+
+.part1 img{
+    position: relative;
+    width: 700px;
+    height:auto;
+    top: 250px;
+    right: -80px;
+    margin-bottom: 50px;
+
+}
+
+
+.part1 p{
+    position: relative;
+    right: -800px;
+    top: -70px;
+
+    
+}
+
+
+.part2 img{
+    position: relative;
+    width: 700px;
+    height:auto;
+    top:250px;
+    right: -80px;
+    margin-bottom: 100px;
+
+    
+}
+
+
+.part2 p{
+    position: relative;
+    right: -800px;
+    top:-100px;
+
+    
+}
+
+
+
+.part3 img{
+    position: relative;
+    width: 700px;
+    height:auto;
+    top:250px;
+    right: -80px;
+    margin-bottom: 170px;
+
+    
+}
+
+
+
+.part3 p{
+    position: relative;
+    right: -800px;
+    top: -130px;
+    
+    
+}
+
+.part4 img{
+    position: relative;
+    width: 700px;
+    height:auto;
+    top:250px;
+    right: -80px;
+    margin-bottom: 180px;
+    
+}
+
+.part4 p{
+    position: relative;
+    right: -800px;
+    top:-150px;
+    
+
+    
+}
+
+.part5 img{
+    position: relative;
+    width: 700px;
+    height:auto;
+    top: 250px;
+    right: -80px;
+    margin-bottom: 40px;
+
+    
+}
+
+.part5 p{
+    position: relative;
+    right: -800px;
+    top:-60px;
+
+    
+}
+
+.part6 img{
+    position: relative;
+    width: 700px;
+    height:auto;
+    top: 250px;
+    right: -80px;
+    margin-bottom: 150px;
+
+    
+}
+
+.part6 p{
+    position: relative;
+    right: -800px;
+    top:-100px;
+   
+
+    
+}
+
+.part7 img{
+    position: relative;
+    width: 700px;
+    height:auto;
+    top: 250px;
+    right: -80px;
+    margin-bottom: 100px;
+
+    
+}
+
+.part7 p{
+    position: relative;
+    right: -800px;
+    top:-200px;
+}
+
+
+/*/bio/*/
+
+
+.finance p{
+    position: relative;
+    font-size: 13px;
+    top: 300px;
+    left: 100px;
+    
+}
+
+.finance img{
+    position: relative;
+    height: auto;
+    width: 300px;
+    top: -100px;
+    left: 700px;
+}
+
+.dance p{
+    position: relative;
+    font-size: 13px;
+    top: -10px;
+    left: 800px;
+}
+
+.dance img{
+    position:relative;
+    height: auto;
+    width: 300px;
+    top: -500px;
+    left: 100px;
+}
+
+.travel p{
+    position: relative;
+    font-size: 13px;
+    top: -350px;
+    left: 100px;
+ 
+}
+
+.travel img{
+    position:relative;
+    height: auto;
+    width: 300px;
+    top: -650px;
+    left: 700px;
+}
+
+.repartiendo p{
+    position: relative;
+    font-size: 13px;
+    bottom: 450px;
+    right:-800px;
+}
+
+.repartiendo img{
+    position: relative;
+    height: auto;
+    width: 300px;
+    top: -890px;
+    left: 100px;
+}
+
+.other p{
+    position: relative;
+    font-size: 13px;
+    bottom: 630px;
+    margin-left: 100px;
+      
+}
+
+.other img{
+    position: relative;
+    height: auto;
+    width: 300px;
+    top: -950px;
+    right:-720px;
+}
+
+
+/*/ info /*/
+
+
+.gcal{
+    margin-left: 320px;
+    margin-top: 300px;
+   
+}
+
+.contact h2{
+    position: relative;
+    bottom: -700px;
+    left: 650px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.contact p{
+    position: relative;
+    bottom: -700px;
+    left: 530px;
+}
+
+
+.contact_form h2{
+    position: relative;
+    font-size: 15px;
+    text-decoration: underline;
+    bottom: -100px;
+    left: 610px;
+
+}
+
+
+
+form {
+  position: relative;
+  margin-top: 150px;
+  left: 500px;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+.form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; 
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+
+
+
+/*/ linkedin /*/
+
+
+
+.linkedin{
+    margin-top: 300px;
+    margin-left: 525px;
+}
+
+
+.linkedin p{
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    left: -60px;
+    top: -50px;
+}
+
+
+/*/ form /*/
+
+.form_message p{
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    bottom: -400px;
+    right: -200px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+#nameError {
+  display: none;
+  font-size: 0.8em;
+}
+
+
+
+
+
+
+
